@@ -1,10 +1,25 @@
 import React from "react";
-import Ticket from "./Keg";
+import Keg from "./Keg";
+import PropTypes from "prop-types";
 
 function KegList(){
   return (
-    <Keg />
+    <React.Fragment>
+      <hr />
+      {props.kegList.map((keg, index) =>
+        <Keg
+          name={keg.name}
+          brand={keg.brand}
+          price={keg.price}
+          alcoholContent={keg.alcoholContent}
+          key={index} />
+      )}
+    </React.Fragment>
   );
 }
+
+KegList.propTypes = {
+  kegList: PropTypes.array
+};
 
 export default KegList;
