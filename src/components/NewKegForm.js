@@ -7,13 +7,10 @@ function NewKegForm(props) {
   function handleNewKegFormSubmission(event) {
     event.preventDefault();
     props.onNewKegCreation({
-      names: event.target.names.value,
-      location: event.target.location.value,
-      birdMake: event.target.birdMake.value,
-      birdModel: event.target.birdModel.value,
-      birdColor: event.target.birdColor.value,
-      beakSize: event.target.beakSize.value,
-      beakColor: event.target.beakColor.value,
+      name: event.target.name.value,
+      brand: event.target.brand.value,
+      price: event.target.price.value,
+      alcoholContent: event.target.alcoholContent.value,
       id: v4()
     });
   }
@@ -37,6 +34,7 @@ function NewKegForm(props) {
           type='text'
           name='alcoholContent'
           placeholder='Alcohol Content' />
+        <button type='submit'>Add Keg</button>
       </form>
     </React.Fragment>
   )
