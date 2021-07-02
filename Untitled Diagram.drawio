@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2021-07-02T16:28:49.694Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.8.3" etag="fsd83Du09CWuzUhsbCM-" type="github"><diagram id="0ATa1sMxeN12RNkvLg7X">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-02T16:41:09.609Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="2Tr-YayAMIiuhqYG02xp" version="14.8.3" type="github">
+  <diagram id="0ATa1sMxeN12RNkvLg7X" name="Page-1">
+    <mxGraphModel dx="718" dy="905" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="li97C6E7J4kbDahqT6OQ-1" value="App&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="720" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="li97C6E7J4kbDahqT6OQ-2" value="Header" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="145" y="120" width="590" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="li97C6E7J4kbDahqT6OQ-3" value="NewKegControl" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="145" y="200" width="585" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="li97C6E7J4kbDahqT6OQ-4" value="KegList/Menu" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="160" y="230" width="180" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="li97C6E7J4kbDahqT6OQ-5" value="NewKegForm" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="353.75" y="230" width="172.5" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="li97C6E7J4kbDahqT6OQ-7" value="Keg Detail" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="542.5" y="230" width="172.5" height="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
