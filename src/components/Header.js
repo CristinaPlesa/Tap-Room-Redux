@@ -1,12 +1,12 @@
 import React from "react";
-import breweryImage from "./../img/Tap-Room-Brewing.jpg";
 
 function Header(){
   return (
     <React.Fragment>
-     <div style={{ backgroundImage: `ur(${breweryImage})`}}>
+      <div class="App-header">
+
       <h1>Tap Room</h1>
-     </div>
+      </div>
     </React.Fragment>
   );
 }
