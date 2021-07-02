@@ -1,3 +1,7 @@
+# Diagram of Tap Room Components
+
+<img src="./src/img/Tap-Room.png" alt="Diagram of Project Components">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
