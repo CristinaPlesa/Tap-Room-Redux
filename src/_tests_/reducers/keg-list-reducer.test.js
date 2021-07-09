@@ -2,6 +2,19 @@ import kegListReducer from '../../reducers/keg-list-reducer';
 
 describe('kegListReducer', () => {
 
+  const currentState = {
+    1: {name: 'IPA',
+    brand: 'VitaBrew',
+    price: '$10',
+    alcoholContent: '9%',
+    id: 1 },
+    2: {name: 'Stout',
+    brand: 'Control',
+    price: '$12',
+    alcoholContent: '11.5%',
+    id: 2 }
+  }
+
   let action;
   const kegData = {
     name: 'IPA',
@@ -34,6 +47,20 @@ describe('kegListReducer', () => {
         alcoholContent: alcoholContent,
         id: id
       }
+    });
+  });
+
+  test('Should successfully delete a keg', () => {
+    action = {
+      type: 'DELETE_KEG',
+      id: 1
+    };
+    expect(kegListReducer(currentState, action)).toEqual({
+      2: { name: 'Stout',
+    brand: 'Control',
+    price: '$12',
+    alcoholContent: '11.5%',
+    id: 2 }
     });
   });
 });
